@@ -18,7 +18,7 @@ const updateBtn = document.getElementById("updateBtn");
 
 let movieArrayy = movieArray1;
 
-localStorage.setItem("movieArray", JSON.stringify("movieArrayy"));
+localStorage.setItem("movieArray", JSON.stringify(movieArrayy));
 
 let jsonArr = localStorage.getItem("movieArray");
 
