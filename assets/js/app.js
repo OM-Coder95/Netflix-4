@@ -16,13 +16,9 @@ const updateBtn = document.getElementById("updateBtn");
 
 // Database
 
-let movieArrayy = movieArray1;
+let movieArray = movieArray1;
 
-localStorage.setItem("movieArray", JSON.stringify(movieArrayy));
-
-let jsonArr = localStorage.getItem("movieArray");
-
-let movieArray = jsonArr ? JSON.parse(jsonArr) : [];
+localStorage.setItem("movieArray", JSON.stringify(movieArray))
 
 // functions
 
