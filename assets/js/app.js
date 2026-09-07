@@ -116,7 +116,7 @@ function onMovieAdd(event) {
     vote_average: movieRating.value,
   };
 
-  movieArray.push(newMovie);
+  movieArray.unshift(newMovie);
   saveDataLS();
 
   //   UI
